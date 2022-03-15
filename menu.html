@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url(index.css);
+        @import url('https://fonts.googleapis.com/css2?family=Taprom&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+    </style>
+</head>
+<div class="gridContainer container-fluid, container-lg, container-md, container-sm, container-xl, .container-xxl">
+    <div class="grid-item">
+        <header>
+        <!--Possible colorized logo for Brandon's Bistro.  Image should be rendered by a graphic artist before actual website use.-->
+        <!--Providing alternative text for image with alt for accessibility-->
+        <!--Bootstrap to make images fluid-->
+        
+        <nav class="navbar navbar-expand-lg">
+            <div class="flex-container navbar navbar-expand-lg">
+                <img class="img-fluid" src="images/BrandonsBistro.png" alt="Brandon's Bistro logo">
+                <div class="pageLink"> <a href="index.html">Home</a></div>
+                <div class="pageLink"><a href="menu.html">Menu</a></div>
+                <div class="pageLink"><a href="about.html">About</a></div>
+                <a href="tel:(989)111-1111"  class="call">(989)111-1111</a>
+              </div>
+        </nav>
+        </header>
+        </div>
+    </div>
+    <div class="grid-item">
+        <div id="menucoupon" class="divbutton"><button class="bntCoupon" onclick="window.location.href='coupons.html';">Get Today's Coupon</button></div>
+      </div>
+    <h2><em>Menu Items</em></h2>
+        <p>We are well known across the state for our Hot Wings and Pizza.  Let us prepare some for you as a late night snack or for your Saturday night party! </p>
+        <section id= "takeout">
+            <h2><em>Take Out or Dine In</em></h2>
+            <div class="grid-item">
+            <div class="thecontainer">
+           <!--html markup for accessibility and SEO--> 
+          <img class="img-fluid" src="images/hotwings.jpg" alt="hotwings" ><p class="dis"><b>Hot Wings</b><br>½ lb buffalo style wings, mild, medium, and<strong><em> hot</em></strong>. Comes with a side of celery and blue cheese dressing. <span class="price">$9</span></p>
+    
+        
+            
+            <img class="img-fluid" src="images/nachos.jpg" alt="nachos" >
+            <p class="dis"><b>Nachos</b> <br> Homemade tortilla chips smother in homemade queso, lettuce, mexican three cheese, tomatoes, guacamole, sour cream, chopped onions, black beans, jalapenos, black olives, and salsa. <em>Protein is your choice of chicken, beef, or tofu.</em>
+              <span class="price">$10</span></p>
+       
+            <img class="img-fluid" src="images/pizza1.jpg" alt="pizza" >
+            <p class="dis"><b>Pizza</b><br>8” personal wood-fired pizza topping with fresh mozzarella, pizza sauce, and your choice of toppings.
+                <span class="price">$8</span></p>
+        
+            <img class="img-fluid" src="images/sliders.jpg" alt="sliders" >
+            <p class="dis"><b>Sliders</b><br>four beef & pork sliders topping with cheddar cheese and grilled onions with your choice of condiments. Comes with a side of french fries.
+            <span class="price">$11</span></p>
+    </div>
+    </div>
+      
+    </section>
+ 
+
+<div class="grid-item" id="Hours">
+    <!--html markup for accessibility and SEO-->
+    Monday: Closed <br>
+    Tuesday-Thursday: <time datetime="16:00">4pm</time> - <time datetime="01:00">1am</time><br>
+    Friday & Saturday <time datetime="11:30">11:30am</time> - <time datetime="02:00">2am</time><br>
+    Sunday: <time datetime="11:30">11:30am</time> - <time datetime="23:00">11pm</time>
+    </div>
+    <div class="grid-item">
+        <!--html markup for accessibility and SEO-->
+    <footer>
+        <address>
+            Brandon's Bistro<br>
+            Brandon Johansen<br>
+            4855 East Main Street<br>
+            Ethereal, MI<br>
+            (989)111-1111<br>
+        </address>
+        <p class="credits">Images courtesy of Unsplash.com. <br>
+            Design by Patty Robison</p>
+    </footer>
+ </div>
+</body>
+</html>

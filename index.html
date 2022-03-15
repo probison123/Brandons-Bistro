@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Taprom&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+        @import url(index.css);
+    </style>
+</head>
+
+<body>
+    <div class="gridContainer container-fluid, container-lg, container-md, container-sm, container-xl, .container-xxl">
+        <div class="grid-item">
+            <header>
+            <!--Possible colorized logo for Brandon's Bistro.  Image should be rendered by a graphic artist before actual website use.-->
+            <!--Providing alternative text for image with alt for accessibility-->
+            <!--Bootstrap to make images fluid-->
+            
+            <nav class="navbar navbar-expand-lg">
+                <div class="flex-container navbar navbar-expand-lg">
+                    <img class="img-fluid" src="images/BrandonsBistro.png" alt="Brandon's Bistro logo">
+                    <div class="pageLink"> <a href="index.html">Home</a></div>
+                    <div class="pageLink"><a href="menu.html">Menu</a></div>
+                    <div class="pageLink"><a href="about.html">About</a></div>
+                    <a href="tel:(989)111-1111"  class="call">(989)111-1111</a>
+                  </div>
+            </nav>
+            </header>
+            </div>
+        </div>
+    <div class="grid-item">
+        <div class="divbutton"><button class="bntCoupon" onclick="window.location.href='coupons.html';">Get Today's Coupon</button></div>    
+    <div class="grid-item">  
+        <div class="grid-container" id="container">
+            
+            <div class="grid-item" id="item"> <a href="menu.html"><img src="images/hotwings.jpg" alt="hotwings" class="img-fluid"></a> </div>
+            <div class="grid-item" id="item2"><a href="menu.html"><img src="images/nachos.jpg" alt="nachos" class="img-fluid"></a></div>   
+            <div class="grid-item" id="item3"><a href="menu.html"><img src="images/pizza1.jpg" alt="pizza" class="img-fluid"></a></div>    
+            <div class="grid-item" id="item4"><a href="menu.html"><img src="images/sliders.jpg" alt="sliders" class="img-fluid"></a></div>       
+        </div>
+    </div>  
+        <div class="grid-item">
+            <h2><em>We have Daily Deals for You!</em></h2>
+            <p>
+                Monday - No coupon, we are closed<br>
+                Tuesday - 5% off the entire order<br>
+                Wednesday - 5% off the entire order<br>
+                Thursday - 10% off the entire order<br>
+                Friday - Free beverage with the purchase of a beverage of equal or lesser value<br>
+                Saturday - Free beverage with the purchase of a beverage of equal or lesser value<br>
+                Sunday - Buy one pizza, get one half off<br>
+            </p>
+
+            <div class="grid-item">
+                
+
+            <p>Easy to use, leave the window open on your phone and just show the coupon to the cashier </p>
+            <p>Coupons are only valid for today's date. Coupon must be presented to cashier before checkout</p>
+
+        </div>
+
+        <div class="grid-item" id="Hours">
+            <!--html markup for accessibility and SEO-->
+            Monday: Closed <br>
+            Tuesday-Thursday: <time datetime="16:00">4pm</time> - <time datetime="01:00">1am</time><br>
+            Friday & Saturday <time datetime="11:30">11:30am</time> - <time datetime="02:00">2am</time><br>
+            Sunday: <time datetime="11:30">11:30am</time> - <time datetime="23:00">11pm</time>
+            </div>
+            </div>
+            <div class="grid-item">
+                <!--html markup for accessibility and SEO-->
+            <footer>
+                <address>
+                    Brandon's Bistro<br>
+                    Brandon Johansen<br>
+                    4855 East Main Street<br>
+                    Ethereal, MI<br>
+                    (989)111-1111<br>
+                </address>
+               <p class="credits">Images courtesy of Unsplash.com. <br>
+               Design by Patty Robison</p>
+            </footer>
+         </div>
+    </div>
+</body>
+</html>

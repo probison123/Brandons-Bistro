@@ -1,0 +1,212 @@
+/*color contrast and 
+adequate spacing between elements for accessibility*/
+html {
+    display: flex;
+    justify-content: center;
+    font-size: 1.4em;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+img {
+  min-width: 200px;
+}
+
+#item, #item2, #item3, #item4 {
+  margin: 5%;
+}
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .pageLink {
+    padding: 2.5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .call {
+    background-color: #A10412;
+    height: fit-content;
+    width: 275px;
+    padding: 20px;
+}
+  a {
+    color: #f1f1f1;
+  }
+  .pageLink a{
+    color: #A10412;
+  }
+  a:hover {
+    color: #383127;
+  }
+
+body {
+    font-family: Arial;
+  }
+  /*coupon*/
+  .coupon {
+    border: 5px dotted #383127;
+    width: 80%;
+    margin: 0 auto;
+    width: 500px;
+    padding: 10px;
+  }
+  
+  .container {
+    padding: 2px 16px;
+    background-color: #f1f1f1;
+  }
+  
+  .promo {
+    background: #ccc;
+    padding: 3px;
+  }
+  
+  #expire {
+    color: #A10412;
+  }
+  /*coupon*/
+ 
+  .dis {
+      padding-left: 100px;
+  }
+  .img {
+      margin-left: 20%;
+      margin-right: 20%;
+  }
+  
+  
+  h2 {
+      border-left: #A10412 3px solid;
+      border-bottom: #F8B960 3px solid;
+      padding: 2px;
+      font-family: 'Taprom', cursive;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px;
+  }
+  .bntCoupon {
+    border: #A10412 solid 3px;
+    outline: #F8B960 solid 3px;
+    background-color: white;
+    font-family: 'Taprom', cursive;
+    font-size: 30px;
+  }
+address {
+    border-top: 2px solid #A10412;
+    border-bottom: 2px solid #A10412;
+    text-align: center;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+p {
+  margin-left: 3%;
+  margin-right: 3%;
+  font-family: 'Roboto', sans-serif;
+}
+.gridContainer{
+    display: grid;
+  grid-template-rows: auto auto auto;
+}
+.gridcontainer{
+    display: grid;
+  grid-template-columns: auto auto auto;
+}
+#Hours {
+    border-top: 4px solid#F8B960;
+    text-align: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    padding-top: 20px;
+    padding-bottom:20px ;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+.divbutton{
+  justify-content: center;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  border-top: 4px solid#F8B960;
+  border-bottom: 4px solid#F8B960;
+  padding-top: 5em;
+  padding-bottom: 5em;
+  margin-bottom: 2em;
+}
+/*#theBnt{
+  height: fit-content;
+  border: 2px solid #F8B960;
+  background-color: #A7C262 ;
+  font-size: 17px;
+}*/
+#deal {
+  text-align: center;
+  color: #A10412;
+}
+.story {
+  width: 75%;
+}
+#message {
+  font-size: 25px;
+}
+#menucoupon {
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+
+/*makes button to win free nachos hidden*/
+#theBnt {
+  visibility: hidden;
+}
+.credits {
+  font-size: 15px;
+  text-align: center;
+}
+
+/*media query*/
+@media all and (max-width: 1033px) {
+    .gridContainer{
+      display: grid;
+    grid-template-rows: auto auto auto;
+    max-width: 900px;
+  }
+}
+/*media query*/
+@media all and (max-width: 945px) {
+  
+.coupon {
+  width: 320px;
+}
+.cou {
+  max-width: 300px;
+}
+#container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+}
+
+@media all and (max-width: 570px) {
+  
+  
+.coupon {
+  width: 320px;
+}
+.cou {
+  max-width: 300px;
+}
+
+}
